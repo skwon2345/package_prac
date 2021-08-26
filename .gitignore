@@ -1,0 +1,15 @@
+# MacOS
+.DS_Store
+
+# VScode
+.vscode/
+
+# Virtual Enviornments
+env/
+.env
+
+# build
+*.pyc
+
+# Log
+*.log
