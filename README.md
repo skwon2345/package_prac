@@ -1,8 +1,8 @@
 # package_prac
 This is practice of packaging python packages and modules neatly.
 
-## Execute Celery
-### crawler_2
+## crawler_2
+### Execute Celery
 Execute the follwoing command in `py_src/crawler/`to create Daemon.
 ```shell
 $ celery -A crawler_2.task multi start crawler_2.task.download -Q download -c 2 -P threads -l info --logfile=worker-download.log --pidfile=worker-download.pid
